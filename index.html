@@ -6,209 +6,210 @@
 <title>Rohit Kori | Portfolio</title>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
-}
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI'; }
+body { background:#f4f7fb; color:#333; scroll-behavior:smooth; }
 
-body {
-  background: #f4f7fb;
-  color: #333;
-}
-
-/* NAVBAR */
+/* NAV */
 nav {
-  position: fixed;
-  width: 100%;
-  background: #003a8f;
-  padding: 15px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  z-index: 1000;
+  position:fixed; width:100%; background:#003a8f; color:white;
+  padding:15px 50px; display:flex; justify-content:space-between;
 }
-
-nav h2 {
-  font-weight: bold;
-}
-
-nav ul {
-  display: flex;
-  gap: 25px;
-  list-style: none;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
+nav ul { display:flex; gap:20px; list-style:none; }
+nav a { color:white; text-decoration:none; }
 
 /* HERO */
 .hero {
-  height: 100vh;
-  background: linear-gradient(135deg, #003a8f, #005be0);
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-.hero h1 {
-  font-size: 3.5rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.3rem;
-  opacity: 0.9;
+  height:100vh;
+  background:linear-gradient(135deg,#003a8f,#005be0);
+  color:white; display:flex; justify-content:center;
+  align-items:center; flex-direction:column;
 }
 
 /* SECTION */
 section {
-  padding: 80px 60px;
-  max-width: 1100px;
-  margin: auto;
+  padding:80px 60px;
+  max-width:1100px;
+  margin:auto;
 }
 
 h2 {
-  color: #003a8f;
-  margin-bottom: 30px;
-  border-left: 5px solid #005be0;
-  padding-left: 10px;
+  color:#003a8f;
+  border-left:5px solid #005be0;
+  padding-left:10px;
+  margin-bottom:20px;
 }
 
-/* CARDS */
+/* GRID */
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-  gap: 20px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
 }
 
 .card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-  transition: 0.3s;
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
-.card:hover {
-  transform: translateY(-8px);
-}
-
-/* EXPERIENCE */
-.exp {
-  margin-bottom: 30px;
-}
-
-.exp h3 {
-  color: #003a8f;
-}
-
-.exp p {
-  font-size: 0.9rem;
-  margin: 5px 0;
-}
-
-.exp ul {
-  margin-top: 10px;
-  padding-left: 20px;
+/* KPI */
+.kpi {
+  background:linear-gradient(135deg,#003a8f,#005be0);
+  color:white;
+  text-align:center;
 }
 
 /* FOOTER */
 footer {
-  text-align: center;
-  padding: 20px;
-  background: #003a8f;
-  color: white;
-}
-
-/* RESPONSIVE */
-@media(max-width:768px){
-  nav {
-    flex-direction: column;
-  }
+  text-align:center;
+  padding:20px;
+  background:#003a8f;
+  color:white;
 }
 </style>
-
 </head>
 
 <body>
 
-<!-- NAVBAR -->
 <nav>
-  <h2>Rohit Kori</h2>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#skills">Skills</a></li>
-  </ul>
+<h2>Rohit Kori</h2>
+<ul>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#skills">Skills</a></li>
+</ul>
 </nav>
 
-<!-- HERO -->
-<div class="hero" id="about">
-  <h1>Rohit Kori</h1>
-  <p>Food Process Engineer | Production | Operations</p>
+<div class="hero">
+<h1>Rohit Kori</h1>
+<p>Food Process Engineer | Production | Operations</p>
 </div>
 
-<!-- ABOUT -->
-<section>
-  <h2>About Me</h2>
-  <p>
-    Production and operations professional with experience in manufacturing,
-    production planning, manpower management and cross-functional coordination.
-    Focused on efficiency, compliance and process improvement.
-  </p>
+<section id="objective">
+<h2>Career Objective</h2>
+<p>
+I aim to secure a challenging role in the Food Manufacturing Industry, where I can utilize my skills in Food Processing while contributing to the growth and success of the organization. Eager to continuously learn and develop within a dynamic work environment.
+</p>
 </section>
 
-<!-- EXPERIENCE -->
+<section id="education">
+<h2>Educational Background</h2>
+
+<p>National Institute of Food Technology, Entrepreneurship and Management- Kundli, Sonipat, Haryana - M.Tech in Food Process Engineering and Management, 2024 | CGPA: 8.16</p>
+
+<p>AKS University, Satna, Madhya Pradesh - B.Tech in Food Technology, 2022 | CGPA: 7.69</p>
+
+</section>
+
 <section id="experience">
-  <h2>Experience</h2>
+<h2>Job Experience</h2>
 
-  <div class="exp">
-    <h3>Marico India Limited</h3>
-    <p>Associate – Production | 2026 - Present</p>
-    <ul>
-      <li>Production Planning & Control (PPC)</li>
-      <li>Cross-functional coordination</li>
-      <li>Audit & compliance</li>
-    </ul>
-  </div>
+<h3>MARICO INDIA LIMITED - (CLIENT SITE)</h3>
+<p>Associate – Production | Feb 2026 - Now</p>
+<ul>
+<li>Managing production planning and control (PPC) to ensure smooth execution and target achievement</li>
+<li>Handling end-to-end operations across manufacturing lines with focus on efficiency and output optimisation</li>
+<li>Coordinating cross-functional activities including Quality, Maintenance, Supply Chain, and Audit teams</li>
+<li>Monitoring manufacturing performance, identifying gaps, and implementing corrective actions</li>
+<li>Ensuring compliance with GMP, HACCP, and audit requirements across operations</li>
+<li>Working in a role similar to a mini manager, handling operations, manpower, and decision-making on the shop floor</li>
+</ul>
 
-  <div class="exp">
-    <h3>Paras Spices Pvt. Ltd.</h3>
-    <p>Executive – Production</p>
-    <ul>
-      <li>Handled 300+ manpower</li>
-      <li>Managed 35+ sections</li>
-    </ul>
-  </div>
+<h3>Paras Spices Pvt. Ltd., Moga, Punjab</h3>
+<p>Executive – Production | Nov 2025 - Feb 2026</p>
+<ul>
+<li>Responsible for end-to-end production operations across 35+ sections in spices processing, ensuring smooth shift-wise execution and target achievement.</li>
+<li>Working as Shift In-Charge, responsible for production planning, line balancing, SOP compliance, and coordination with Quality, Maintenance, supply chain and Stores.</li>
+<li>Leading manpower management of 300+ blue-collar workers, including deployment, productivity control, discipline, and on-job training.</li>
+<li>Implementing GMP, GHP, hygiene standards, and actively supporting internal and external audits.</li>
+</ul>
+
+<h3>KRBL Limited, Sonipat, Haryana</h3>
+<p>Officer - Production | Sep 2024 – Nov 2025</p>
+<ul>
+<li>Coordinated production planning with RM & PM availability, Managing manpower efficiently</li>
+<li>Responsible for food safety, quality of product, packaging and plant safety</li>
+<li>Conducted gap analysis and developed improvement plans, enhancing process efficiency.</li>
+<li>Monitored key performance indicators (KPIs) and initiated corrective action.</li>
+<li>Executed food safety initiatives, boosting quality compliance.</li>
+<li>Development of daily Production Reports, Monitoring HACCP Compliances (CCPs & PRPs)</li>
+<li>Successfully completing 350 MT/day production in independent 25MT/hr capacity plants</li>
+<li>Led 5S, GMP, and autonomous maintenance implementation for streamlined operations.</li>
+</ul>
+
+<h3>DRB Foods Pvt. Ltd., Delhi</h3>
+<p>Intern - Quality Control and Assurance | Aug 2023 - Nov 2023</p>
+<ul>
+<li>Monitored defective generation and manufacturing abnormalities to minimize product rejections</li>
+<li>Conducted internal audits</li>
+<li>Oversaw artwork and labelling compliance</li>
+</ul>
+
+<h3>Daawat Foods Ltd. (LT Foods), Bhopal</h3>
+<p>Quality Control Analyst | April 2022 – Aug 2022</p>
+<ul>
+<li>Evaluated packaging abilities to meet regulatory requirements</li>
+<li>Oversaw loading operations and container analysis</li>
+<li>Coordinated with production team to resolve issues</li>
+</ul>
+
+<p>Trainee – Quality Control | Sep 2021 – Nov 2021</p>
+<ul>
+<li>Ensured quality control measures throughout rice production</li>
+<li>Evaluated quality parameters for Fast Cooking Brown Rice</li>
+</ul>
 
 </section>
 
-<!-- SKILLS -->
 <section id="skills">
-  <h2>Skills</h2>
+<h2>Skills</h2>
 
-  <div class="grid">
-    <div class="card">Production Planning</div>
-    <div class="card">HACCP & GMP</div>
-    <div class="card">Manpower Management</div>
-    <div class="card">Process Improvement</div>
-  </div>
+<div class="grid">
+<div class="card">MS Excel, SAP, PPC</div>
+<div class="card">HACCP, CCPs, 5S</div>
+<div class="card">Root Cause Analysis</div>
+<div class="card">Manpower Management</div>
+</div>
 
 </section>
 
-<!-- FOOTER -->
+<section id="dashboard">
+<h2>Operations Dashboard</h2>
+
+<div class="grid">
+<div class="card kpi"><h3 class="counter" data-target="350">0</h3><p>MT/Day</p></div>
+<div class="card kpi"><h3 class="counter" data-target="300">0</h3><p>Manpower</p></div>
+<div class="card kpi"><h3 class="counter" data-target="35">0</h3><p>Sections</p></div>
+<div class="card kpi"><h3 class="counter" data-target="95">0</h3><p>Efficiency</p></div>
+</div>
+
+</section>
+
 <footer>
-  © 2026 Rohit Kori | All Rights Reserved
+© 2026 Rohit Kori
 </footer>
+
+<script>
+const counters = document.querySelectorAll('.counter');
+
+counters.forEach(counter => {
+  const update = () => {
+    const target = +counter.getAttribute('data-target');
+    let count = +counter.innerText;
+    const increment = target / 100;
+
+    if(count < target){
+      counter.innerText = Math.ceil(count + increment);
+      setTimeout(update, 20);
+    } else {
+      counter.innerText = target;
+    }
+  };
+  update();
+});
+</script>
 
 </body>
 </html>
