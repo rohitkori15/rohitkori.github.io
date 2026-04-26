@@ -59,7 +59,46 @@ h2 {
   color:white;
   text-align:center;
 }
+.edu-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+/* Donut */
+.donut {
+  --size: 120px;
+  --thickness: 12px;
+  width: var(--size);
+  height: var(--size);
+  margin: 20px auto;
+  border-radius: 50%;
+  background: conic-gradient(
+    #005be0 calc(var(--value) * 1%),
+    #e6ecf5 0
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
+.donut::before {
+  content: "";
+  position: absolute;
+  width: calc(100% - var(--thickness)*2);
+  height: calc(100% - var(--thickness)*2);
+  background: white;
+  border-radius: 50%;
+}
+
+.donut span {
+  position: relative;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #003a8f;
+}
 /* FOOTER */
 footer {
   text-align:center;
