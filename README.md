@@ -35,7 +35,7 @@
 
 ### 🏢 MARICO INDIA LIMITED (Client Site)
 
-**Associate – Production | Feb 2026 - Now**
+Associate – Production | Feb 2026 - Now
 
 * Managing production planning and control (PPC) to ensure smooth execution and target achievement
 * Handling end-to-end operations across manufacturing lines with focus on efficiency and output optimisation
@@ -48,7 +48,7 @@
 
 ### 🏢 Paras Spices Pvt. Ltd., Moga
 
-**Executive – Production | Nov 2025 - Feb 2026**
+Executive – Production | Nov 2025 - Feb 2026
 
 * Responsible for end-to-end production operations across 35+ sections in spices processing
 * Working as Shift In-Charge (planning, line balancing, SOP compliance)
@@ -59,7 +59,7 @@
 
 ### 🏢 KRBL Limited, Sonipat
 
-**Officer – Production | Sep 2024 – Nov 2025**
+Officer – Production | Sep 2024 – Nov 2025
 
 * Production planning with RM & PM coordination
 * Responsible for food safety, packaging and plant operations
@@ -72,7 +72,7 @@
 
 ### 🏢 DRB Foods Pvt. Ltd., Delhi
 
-**Intern – QA/QC | Aug 2023 - Nov 2023**
+Intern – QA/QC | Aug 2023 - Nov 2023
 
 * Reduced defects and improved quality compliance
 * Conducted internal audits
@@ -169,6 +169,6 @@ Hindi | English | Punjabi | Haryanvi | Bagheli
 
 ## 🤝 Connect
 
-💼 Open to roles in **Production | Operations | Manufacturing**
+💼 Open to roles in Production, Operations, Manufacturing
 
 👉 Let’s connect and grow together!
